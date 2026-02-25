@@ -4,10 +4,11 @@ ScreenManager::ScreenManager() {
 	appContext.currentLevel = Level::GetLevel(0);
 	currentScreen = make_unique<EditorScreen>(appContext);
 
-	appContext.currentLevel->SetTile(0, 3, Tile{ 1, true });
-	appContext.currentLevel->SetTile(1, 3, Tile{ 1, true });
-	appContext.currentLevel->SetTile(2, 3, Tile{ 1, true });
-	appContext.currentLevel->SetTile(3, 3, Tile{ 1, true });
+	//make unique pointer tiles for vector
+	appContext.currentLevel->SetTile(0, 3, new Tile{ 1, true, WHITE });
+	appContext.currentLevel->SetTile(1, 3, new Tile{ 1, true, WHITE });
+	appContext.currentLevel->SetTile(2, 3, new Tile{ 1, true, WHITE });
+	appContext.currentLevel->SetTile(3, 3, new Tile{ 1, true, WHITE });
 }
 
 ScreenManager::~ScreenManager() {

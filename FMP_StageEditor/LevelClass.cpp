@@ -31,7 +31,7 @@ void Level::PlayerTileCollision(PlayerData& data) {
 	for (int y = topTile; y <= bottomTile; y++){
 		for (int x = leftTile; x <= rightTile; x++)
 		{
-			Tile& tile = GetTile(x, y);
+			if (!TileExists(x, y)) continue; // Skip empty tiles
 			//Tile world bound
 			Rectangle tileRect = {
 				x * tileSize,
@@ -39,7 +39,7 @@ void Level::PlayerTileCollision(PlayerData& data) {
 				(float)tileSize,
 				(float)tileSize
 			};
-			if (CheckCollisionRecs(playerRect, tileRect) && tile.collision) {
+			if (CheckCollisionRecs(playerRect, tileRect) && GetTile(x, y)->collision) {
 				// Simple collision response: push player out of tile
 				// Calculate overlap on each side
 				float overlapLeft = (playerRect.x + playerRect.width) - tileRect.x;
