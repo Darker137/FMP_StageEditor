@@ -36,8 +36,10 @@ public:
 	void UpdateCameraGameplay(float dt, Vector2 target); // Update the camera for gameplay mode
 	void Draw(); // Draw the viewport texture to the screen
 	void DrawGrid(); // Draw a grid within the viewport
-	void DrawLevel(const Level& level); // Draw the given level within the viewport
-	void DrawTile(const Tile& tile, Vector2 position); // Draw a single tile at the specified position
+	void DrawBounds(const Level& level); // Draw level bounds for reference
+	void DrawBoundsBackground(const Level& level); // Draw a background for the level bounds
+	void DrawLevel(Level& level); // Draw the given level within the viewport
+	void DrawTile(Tile* tile, Vector2 position); // Draw a single tile at the specified position
 	Vector2 ScreenToVirtual(Vector2 mousePos) const; // Convert screen coordinates to virtual viewport coordinates
 	Vector2 ScreenToWorld(Vector2 mousePos) const; // Convert screen coordinates to world coordinates
 	GridPos WorldToGrid(Vector2 worldPos) const; // Convert world coordinates to grid position

@@ -97,8 +97,8 @@ void Viewport::Draw() {
 
 void Viewport::DrawGrid() {
 	// Draw grid lines within the viewport
-	Color minor = { 50, 50, 50, 255 };
-	Color major = { 100, 100, 100, 255 };
+	Color minor = { 100, 100, 100, 20 };
+	Color major = { 150, 150, 150, 20 };
 
 	float left = camera.target.x - (virtualSize.x * 0.5f) / camera.zoom;
 	float top = camera.target.y - (virtualSize.y * 0.5f) / camera.zoom;
@@ -117,30 +117,70 @@ void Viewport::DrawGrid() {
 	}
 }
 
-void Viewport::DrawLevel(const Level& level) {
-	// Draw the given level within the viewport
+// draw outline around the level bounds for reference
+void Viewport::DrawBounds(const Level& level) {
+	// Draw level bounds for reference
+	float width = level.GetWidth() * gridSize;
+	float height = level.GetHeight() * gridSize;
+	//DrawRectangleLines(0, 0, width, height, RAYWHITE);
+/*
+	//top line
+	DrawLineEx({ -2,-1 }, { width + 2 , -1 }, 2, RAYWHITE);
+	//bottom line
+	DrawLineEx({ -2, height + 1 }, { width + 2 , height + 1 }, 2, RAYWHITE);
+	//left line
+	DrawLineEx({ -1, -2 }, { -1 , height + 2 }, 2, RAYWHITE);
+	//right line
+	DrawLineEx({ width + 1, -2 }, { width + 1 , height + 2 }, 2, RAYWHITE);
+*/
+	//regular draw line version
+	//Top line
+	DrawLine(0, 0, width, 0, RAYWHITE);
+	//Bottom line
+	DrawLine(0, height, width, height, RAYWHITE);
+	//Left line
+	DrawLine(0, 0, 0, height, RAYWHITE);
+	//Right line
+	DrawLine(width, 0, width, height, RAYWHITE);
+
+
+}
+
+void Viewport::DrawBoundsBackground(const Level& level) {
+	// Draw a background for the level bounds
+	float width = level.GetWidth() * gridSize;
+	float height = level.GetHeight() * gridSize;
+	DrawRectangle(0, 0, width, height, { 50, 50, 50, 255 });
+}
+
+void Viewport::DrawLevel(Level& level) {
+	// Draw the given level within the viewportS
 	for (int y = 0; y < level.GetHeight(); ++y) {
 		for (int x = 0; x < level.GetWidth(); x++) {
-			const Tile& tile = level.GetTile(x, y);
-			if (tile.id != 0) {
+			if (level.TileExists(x,y)) {
 				Vector2 pos = {
 					(float)(x * gridSize),
 					(float)(y * gridSize)
 				};
-				DrawTile(tile, pos);
+				Tile* tile = level.GetTile(x, y);
+				DrawTile(level.GetTile(x,y), pos);
 			}
 		}
 	}
 }
 
-void Viewport::DrawTile(const Tile& tile, Vector2 position) {
+void Viewport::DrawTile(Tile* tile, Vector2 position) {
 	// Draw tile rectangle
+	Color color = tile->color;
+	//print colour value to console
+	cout << "Drawing tile at (" << position.x << ", " << position.y << ") with color ("
+		<< (int)color.r << ", " << (int)color.g << ", " << (int)color.b << ", " << (int)color.a << ")" << endl;
 	DrawRectangle(
 		position.x,
 		position.y,
 		(float)gridSize,
 		(float)gridSize,
-		tile.color
+		color
 	);
 }
 

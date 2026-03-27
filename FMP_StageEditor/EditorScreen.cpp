@@ -40,12 +40,16 @@ void EditorScreen::UpdateTileDragging() {
 	//Start Dragging
 	if (!isDraggingTile && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
 		if (appContext.currentLevel->InBounds(grid.x, grid.y)) {
-			Tile& tile = appContext.currentLevel->GetTile(grid.x, grid.y);
-			if (tile.id != 0) {
+			Tile* tile = appContext.currentLevel->GetTile(grid.x, grid.y);
+			if (appContext.currentLevel->TileExists(grid.x, grid.y)) 
+			{
 				isDraggingTile = true;
-				draggedTile = tile;
+				draggedTile = *tile;
 				dragStartPos = grid;
-				tile = Tile{}; //remove tile from level while dragging
+				if (!IsKeyDown(KEY_LEFT_CONTROL))
+				{
+					appContext.currentLevel->DeleteTile(grid.x, grid.y); //remove tile from level while dragging
+				}
 			}
 		}
 		else cout << "Out of bounds: " << grid.x << ", " << grid.y << endl;
@@ -60,10 +64,13 @@ void EditorScreen::UpdateTileDragging() {
 	//Drop
 
 	if (isDraggingTile && IsMouseButtonReleased(MOUSE_LEFT_BUTTON)) {
-		if (appContext.currentLevel->InBounds(grid.x, grid.y)) {
-			appContext.currentLevel->GetTile(grid.x, grid.y) = draggedTile;
+		if (appContext.currentLevel->InBounds(grid.x, grid.y)) 
+		{
+			// move tile to new location 
+			appContext.currentLevel->ReplaceTileWithValue(grid.x, grid.y, draggedTile);
 		}
-		else {
+		else // If dropped out of bounds, either discard new tile or return to start position
+		{
 			if (isTileNew) {
 				//Discard new tile if dropped out of bounds
 				isTileNew = false;
@@ -71,7 +78,7 @@ void EditorScreen::UpdateTileDragging() {
 			else
 			{
 				//Return to start position if dropped out of bounds
-				appContext.currentLevel->GetTile(dragStartPos.x, dragStartPos.y) = draggedTile;
+				appContext.currentLevel->ReplaceTileWithValue(dragStartPos.x, dragStartPos.y, draggedTile);
 			}
 		}
 		isDraggingTile = false;
@@ -119,7 +126,7 @@ void EditorScreen::DrawTileDragging() {
 			LIGHTGRAY
 		);
 
-		appContext.viewport->DrawTile(draggedTile, appContext.viewport->ScreenToWorld(GetMousePosition()));
+		appContext.viewport->DrawTile(&draggedTile, appContext.viewport->ScreenToWorld(GetMousePosition()));
 	}
 }
 
@@ -186,7 +193,10 @@ void EditorScreen::Draw() {
 	appContext.viewport->Begin();
 
 	ClearBackground({ 10,10,10 ,225 });
+
+	appContext.viewport->DrawBoundsBackground(*appContext.currentLevel);
 	appContext.viewport->DrawGrid();
+	appContext.viewport->DrawBounds(*appContext.currentLevel);
 	appContext.viewport->DrawLevel(*appContext.currentLevel);
 	DrawPlayer();
 	DrawTileDragging();

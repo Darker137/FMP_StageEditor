@@ -4,6 +4,7 @@
 #include <iostream> 			  // Required for console output
 #include <cmath>                  // Required for math functions
 #include <vector>                 // Required for using std::vector
+#include <memory>                 // Required for smart pointers
 
 #include "raygui.h"                 // Required for GUI controls
 #include "raylib.h"                 //Main Raylib core library
