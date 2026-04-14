@@ -1,1 +1,40 @@
-﻿  FMP_StageEditor.vcxproj -> C:\Users\u2501538\Projects\FMP_StageEditor\x64\Debug\FMP_StageEditor.exe
+﻿  LevelClass.cpp
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(31,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(32,18): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(33,16): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(34,19): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(42,7): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(42,7): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(43,7): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\LevelClass.cpp(43,7): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  ScreenManager.cpp
+  Viewport.cpp
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(5,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(5,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(50,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(51,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(113,24): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(113,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(113,15): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(113,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(117,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(117,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(117,18): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(117,12): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(124,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(125,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(139,17): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(141,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(141,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(141,14): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(143,20): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(145,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(145,21): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(145,11): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(152,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(153,15): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(154,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\UniWork\Year3\FMP_StageEditor\FMP_StageEditor\Viewport.cpp(154,22): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  FMP_StageEditor.vcxproj -> C:\UniWork\Year3\FMP_StageEditor\x64\Debug\FMP_StageEditor.exe

@@ -14,6 +14,9 @@ public:
 	~GameplayScreen() override = default;
 	void Update() override;
 	void Draw() override;
+	void Init() override;
+	void LoadTileTextures() override;
+	void LoadTileData() override;
 };
 
 #endif

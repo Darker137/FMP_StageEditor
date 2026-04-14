@@ -1,4 +1,5 @@
 #include "Viewport.h"
+#include "TileClass.h"
 
 Viewport::Viewport(float width, float height) {
 	renderTexture = LoadRenderTexture(width, height);
@@ -153,7 +154,7 @@ void Viewport::DrawBoundsBackground(const Level& level) {
 	DrawRectangle(0, 0, width, height, { 50, 50, 50, 255 });
 }
 
-void Viewport::DrawLevel(Level& level) {
+void Viewport::DrawLevel(Level& level, unordered_map<int, Texture2D>* tileTextures) {
 	// Draw the given level within the viewportS
 	for (int y = 0; y < level.GetHeight(); ++y) {
 		for (int x = 0; x < level.GetWidth(); x++) {
@@ -163,25 +164,32 @@ void Viewport::DrawLevel(Level& level) {
 					(float)(y * gridSize)
 				};
 				Tile* tile = level.GetTile(x, y);
-				DrawTile(level.GetTile(x,y), pos);
+				Texture2D* texture = nullptr;
+				int textureID = level.GetTextureID(tile->id);
+				//get texture from tileTextures unordered map using tile's textureID
+				if (tileTextures->find(level.GetTextureID(tile->id)) != tileTextures->end()) {
+					texture = &(*tileTextures)[level.GetTextureID(tile->id)];
+					 DrawTile(tile, pos, texture, level.GetTileColor(tile->id));
+					 continue;
+				}
+				else {
+					cout << "Texture ID " << textureID << " not found for tile ID " << tile->id << ". Drawing without texture." << endl;
+					DrawTile(tile, pos, nullptr, level.GetTileColor(tile->id));
+					continue;
+				}
 			}
 		}
 	}
 }
 
-void Viewport::DrawTile(Tile* tile, Vector2 position) {
-	// Draw tile rectangle
-	Color color = tile->color;
-	//print colour value to console
-	cout << "Drawing tile at (" << position.x << ", " << position.y << ") with color ("
-		<< (int)color.r << ", " << (int)color.g << ", " << (int)color.b << ", " << (int)color.a << ")" << endl;
-	DrawRectangle(
-		position.x,
-		position.y,
-		(float)gridSize,
-		(float)gridSize,
-		color
-	);
+void Viewport::DrawTile(Tile* tile, Vector2 position, Texture2D* texture, Color colour) {
+	//draw tile with texture if available, otherwise draw colored rectangle
+	if (texture) {
+		DrawTextureEx(*texture, position, 0.0f, (float)gridSize / texture->width, colour);
+	}
+	else {
+		DrawRectangleV(position, { (float)gridSize, (float)gridSize }, colour);
+	}
 }
 
 Vector2 Viewport::ScreenToVirtual(Vector2 mousePos) const {

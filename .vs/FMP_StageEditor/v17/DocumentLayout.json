@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "C:\\UniWork\\Year3\\FMP_StageEditor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\AppContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\LevelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\LevelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\AppContext.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\FMP_StageEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GeneralFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GameplayScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GeneralFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\ScreenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Viewport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Viewport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorTopBar.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GameplayScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GeneralFunctions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\TileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -67,24 +39,75 @@
       "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GameplayScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\EditorTopBar.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\LevelClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\GeneralFunctions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\TileClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\LevelClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\ScreenManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\TileClass.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Screen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Viewport.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\Viewport.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\AppContext.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\AppContext.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|solutionrelative:FMP_StageEditor\\FMP_StageEditor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\string||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FCB0A45-DFE3-43AE-8515-58EBDCF34A79}|FMP_StageEditor\\FMP_StageEditor.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.44.35207\\INCLUDE\\MEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,60 +117,262 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\Player.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\Player.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-16T19:23:48.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Viewport.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\Viewport.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\Viewport.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-13T14:38:20.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Viewport.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\Viewport.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h",
-              "RelativeToolTip": "FMP_StageEditor\\Viewport.h",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAABCAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "TileClass.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\TileClass.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h",
+              "RelativeToolTip": "FMP_StageEditor\\TileClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-13T14:38:10.597Z"
+              "WhenOpened": "2025-12-14T16:05:09.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GeneralFunctions.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\GeneralFunctions.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h",
+              "RelativeToolTip": "FMP_StageEditor\\GeneralFunctions.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T13:05:22.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameplayScreen.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\GameplayScreen.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.h",
+              "RelativeToolTip": "FMP_StageEditor\\GameplayScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T14:11:12.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditorTopBar.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\EditorTopBar.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.h",
+              "RelativeToolTip": "FMP_StageEditor\\EditorTopBar.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-09T16:38:06.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditorScreen.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\EditorScreen.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h",
+              "RelativeToolTip": "FMP_StageEditor\\EditorScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T14:10:55.082Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LevelClass.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\LevelClass.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h",
+              "RelativeToolTip": "FMP_StageEditor\\LevelClass.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvygAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-14T16:04:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelClass.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\LevelClass.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\LevelClass.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T16:04:18.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScreenManager.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\ScreenManager.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.h",
+              "RelativeToolTip": "FMP_StageEditor\\ScreenManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T13:09:32.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Screen.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\Screen.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.h",
+              "RelativeToolTip": "FMP_StageEditor\\Screen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T14:29:47.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EditorScreen.cpp",
               "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.cpp",
               "RelativeDocumentMoniker": "FMP_StageEditor\\EditorScreen.cpp",
               "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.cpp",
               "RelativeToolTip": "FMP_StageEditor\\EditorScreen.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAC4BAAAAAAAAAADwv0ABAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-16T14:11:01.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameplayScreen.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\GameplayScreen.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\GameplayScreen.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-16T14:11:27.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xmemory",
+              "ViewState": "AgIAAGkFAAAAAAAAAADwv3cFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T22:21:56.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "utility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "ViewState": "AgIAAPYCAAAAAAAAAADwvwQDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-14T22:09:46.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditorTopBar.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\EditorTopBar.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorTopBar.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\EditorTopBar.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-09T16:38:21.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "vector",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\vector",
+              "ViewState": "AgIAAJYDAAAAAAAAAADwv6QDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T15:36:53.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\Player.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.h",
+              "RelativeToolTip": "FMP_StageEditor\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-16T19:23:42.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GeneralFunctions.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\GeneralFunctions.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\GeneralFunctions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T13:04:49.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ScreenManager.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\ScreenManager.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\ScreenManager.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T13:09:42.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TileClass.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\TileClass.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\TileClass.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-14T16:05:18.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Screen.cpp",
               "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.cpp",
               "RelativeDocumentMoniker": "FMP_StageEditor\\Screen.cpp",
@@ -155,37 +380,51 @@
               "RelativeToolTip": "FMP_StageEditor\\Screen.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-16T14:29:52.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FMP_StageEditor.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\FMP_StageEditor.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\FMP_StageEditor.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-12T17:21:10.044Z",
+              "WhenOpened": "2025-12-16T14:29:52.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppContext.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\AppContext.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\AppContext.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\Player.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\Player.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAgwBgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-16T14:28:13.882Z",
+              "WhenOpened": "2025-12-16T19:23:48.508Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 21,
+              "Title": "Viewport.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\Viewport.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\Viewport.cpp",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAgwJwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-13T14:38:20.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Viewport.h",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\Viewport.h",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Viewport.h",
+              "RelativeToolTip": "FMP_StageEditor\\Viewport.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-13T14:38:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "AppContext.h",
               "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.h",
               "RelativeDocumentMoniker": "FMP_StageEditor\\AppContext.h",
@@ -198,163 +437,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GeneralFunctions.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\GeneralFunctions.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\GeneralFunctions.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "AppContext.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\AppContext.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\AppContext.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\AppContext.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-13T13:04:49.927Z"
+              "WhenOpened": "2025-12-16T14:28:13.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GameplayScreen.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\GameplayScreen.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\GameplayScreen.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBkAAAAZAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "FMP_StageEditor.cpp",
+              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp",
+              "RelativeDocumentMoniker": "FMP_StageEditor\\FMP_StageEditor.cpp",
+              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\FMP_StageEditor.cpp",
+              "RelativeToolTip": "FMP_StageEditor\\FMP_StageEditor.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-16T14:11:27.681Z"
+              "WhenOpened": "2025-12-12T17:21:10.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ScreenManager.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\ScreenManager.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\ScreenManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-13T13:09:42.198Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "DocumentIndex": 26,
+              "Title": "string",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\string",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAlwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-10T17:34:40.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GeneralFunctions.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\GeneralFunctions.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GeneralFunctions.h",
-              "RelativeToolTip": "FMP_StageEditor\\GeneralFunctions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-13T13:05:22.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EditorScreen.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\EditorScreen.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\EditorScreen.h",
-              "RelativeToolTip": "FMP_StageEditor\\EditorScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T14:10:55.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GameplayScreen.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\GameplayScreen.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\GameplayScreen.h",
-              "RelativeToolTip": "FMP_StageEditor\\GameplayScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T14:11:12.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ScreenManager.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\ScreenManager.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\ScreenManager.h",
-              "RelativeToolTip": "FMP_StageEditor\\ScreenManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-13T13:09:32.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Screen.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\Screen.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Screen.h",
-              "RelativeToolTip": "FMP_StageEditor\\Screen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T14:29:47.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\Player.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\Player.h",
-              "RelativeToolTip": "FMP_StageEditor\\Player.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-16T19:23:42.206Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LevelClass.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\LevelClass.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.h",
-              "RelativeToolTip": "FMP_StageEditor\\LevelClass.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-14T16:04:12.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TileClass.h",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\TileClass.h",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.h",
-              "RelativeToolTip": "FMP_StageEditor\\TileClass.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-14T16:05:09.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LevelClass.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\LevelClass.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\LevelClass.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\LevelClass.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-14T16:04:18.83Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TileClass.cpp",
-              "DocumentMoniker": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.cpp",
-              "RelativeDocumentMoniker": "FMP_StageEditor\\TileClass.cpp",
-              "ToolTip": "C:\\UniWork\\Year3\\FMP_StageEditor\\FMP_StageEditor\\TileClass.cpp",
-              "RelativeToolTip": "FMP_StageEditor\\TileClass.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-14T16:05:18.735Z"
+              "DocumentIndex": 27,
+              "Title": "memory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\memory",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\memory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\memory",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\memory",
+              "ViewState": "AgIAABsOAAAAAAAAAAAgwC0OAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-01T16:06:36.777Z"
             }
           ]
         }

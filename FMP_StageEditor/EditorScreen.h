@@ -3,6 +3,11 @@
 
 #include "GeneralFunctions.h"
 #include "Screen.h"
+#include "TileClass.h"
+#include "EditorTopBar.h"
+
+struct Tile;
+class MenuBarButton;
 
 class EditorScreen : public Screen {
 private:
@@ -18,17 +23,14 @@ private:
 	bool isMovingPlayer = false;
 	Vector2 playerStartPos;
 
+	unique_ptr<TopBar> topBar = nullptr;
+
 	unique_ptr<DropdownList> tileSelector = nullptr;
 	unique_ptr<Button> addButton = nullptr;
 	unique_ptr<Button> playButton = nullptr;
 
 	//temporary tile list for selection
-	vector<Tile> tileList = {
-	Tile{}, // Empty Tile
-	{ 1, true, WHITE  }, // Tile 1
-	{ 2, true, RED }, // Tile 2
-	{ 3, true, GREEN }  // Tile 3
-	};
+	vector<TileData> tileList;
 
 	void UpdateViewportInput();
 	void UpdateTileDragging();
@@ -45,6 +47,15 @@ public:
 	~EditorScreen() override;
 	void Update() override;
 	void Draw() override;
+	void Init() override;
+	void LoadTileTextures() override;
+	void LoadTileData() override;
+
+	void NewLevel() { appContext.currentLevel = Level::GetLevel(0); Init(); }
+	void SaveLevelAs();
+	void SaveOpenLevel();
+	void SaveLevelToFile(const string& filePath);
+	void LoadLevel();
 };
 
 #endif

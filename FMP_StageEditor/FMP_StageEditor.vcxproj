@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClCompile Include="AppContext.cpp" />
     <ClCompile Include="EditorScreen.cpp" />
+    <ClCompile Include="EditorTopBar.cpp" />
     <ClCompile Include="FMP_StageEditor.cpp" />
     <ClCompile Include="GameplayScreen.cpp" />
     <ClCompile Include="GeneralFunctions.cpp" />
@@ -139,11 +140,13 @@
     <ClCompile Include="Screen.cpp" />
     <ClCompile Include="ScreenManager.cpp" />
     <ClCompile Include="TileClass.cpp" />
+    <ClCompile Include="tinyfiledialogs\tinyfiledialogs.c" />
     <ClCompile Include="Viewport.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppContext.h" />
     <ClInclude Include="EditorScreen.h" />
+    <ClInclude Include="EditorTopBar.h" />
     <ClInclude Include="GameplayScreen.h" />
     <ClInclude Include="GeneralFunctions.h" />
     <ClInclude Include="LevelClass.h" />

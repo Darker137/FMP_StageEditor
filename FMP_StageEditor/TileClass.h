@@ -3,9 +3,22 @@
 
 #include "GeneralFunctions.h"
 
-struct Tile {
+enum class TileState 
+{
+	//add more states later
+	NORMAL
+};
+
+struct Tile
+{
 	int id = 0;
-	bool collision = false;
+	TileState state = TileState::NORMAL;
+};
+
+struct TileData
+{
+	int id = 0;
+	int textureID = 0;
 	Color color = WHITE;
 };
 

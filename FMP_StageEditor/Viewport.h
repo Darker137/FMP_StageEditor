@@ -38,8 +38,8 @@ public:
 	void DrawGrid(); // Draw a grid within the viewport
 	void DrawBounds(const Level& level); // Draw level bounds for reference
 	void DrawBoundsBackground(const Level& level); // Draw a background for the level bounds
-	void DrawLevel(Level& level); // Draw the given level within the viewport
-	void DrawTile(Tile* tile, Vector2 position); // Draw a single tile at the specified position
+	void DrawLevel(Level& level, unordered_map<int, Texture2D>* tileTextures); // Draw the given level within the viewport
+	void DrawTile(Tile* tile, Vector2 position, Texture2D* texture, Color colour); // Draw a single tile at the specified position
 	Vector2 ScreenToVirtual(Vector2 mousePos) const; // Convert screen coordinates to virtual viewport coordinates
 	Vector2 ScreenToWorld(Vector2 mousePos) const; // Convert screen coordinates to world coordinates
 	GridPos WorldToGrid(Vector2 worldPos) const; // Convert world coordinates to grid position

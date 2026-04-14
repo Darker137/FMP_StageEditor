@@ -1,4 +1,7 @@
 #include "EditorScreen.h"
+#include "TileClass.h"
+#include "LevelClass.h"
+#include "EditorTopBar.h"
 
 EditorScreen::EditorScreen(AppContext& context)
 	: Screen(context) {
@@ -9,23 +12,24 @@ EditorScreen::EditorScreen(AppContext& context)
 
 	tileSelector = make_unique<DropdownList>();
 	tileSelector->dropDownLabel = "Select Tile";
-	tileSelector->bounds = { 10, 10, 150, 30 };
-	tileSelector->AddItem(0, "Empty Tile");
-	tileSelector->AddItem(1, "Tile 1");
-	tileSelector->AddItem(2, "Tile 2");
-	tileSelector->AddItem(3, "Tile 3");
+	tileSelector->bounds = { 10, 50, 150, 30 };
 
 	addButton = make_unique<Button>();
 	addButton->label = "Add Tile";
-	addButton->bounds = { 170, 10, 100, 30 };
+	addButton->bounds = { 170, 50, 100, 30 };
 
 	playButton = make_unique<Button>();
 	playButton->label = "Play";
-	playButton->bounds = { 280, 10, 100, 30 };
+	playButton->bounds = { 280, 50, 100, 30 };
 
 }
 
 EditorScreen::~EditorScreen() {
+	//unload textures in tileTextures
+	for (auto& pair : tileTextures) {
+		cout << "Unloading texture for Tile ID: " << pair.first << endl;
+		UnloadTexture(pair.second);
+	}
 }
 
 void EditorScreen::UpdateViewportInput() {
@@ -88,27 +92,36 @@ void EditorScreen::UpdateTileDragging() {
 void EditorScreen::UpdateMovePlayer() {
 	// Implement player movement update logic here
 	Vector2 mouseWorld = appContext.viewport->ScreenToWorld(GetMousePosition());
+	// Check if right mouse button is pressed and mouse is over player
 	Rectangle playerRect = {
 		appContext.playerData.position.x,
 		appContext.playerData.position.y,
 		appContext.playerData.size.x,
 		appContext.playerData.size.y
 	};
+	// If right mouse button is pressed on player, start moving player
 	if (CheckCollisionPointRec(mouseWorld, playerRect) && IsMouseButtonDown(MOUSE_RIGHT_BUTTON)) {
+		// If not already moving player, store starting position
 		if (!isMovingPlayer)
 		{
 			playerStartPos = appContext.playerData.position;
 		}
 		isMovingPlayer = true;
 	}
+	// If right mouse button is released, stop moving player and check if in bounds, if not reset to start position
 	if (isMovingPlayer && IsMouseButtonReleased(MOUSE_RIGHT_BUTTON)) {
+		// Check if player is in bounds of level, if not reset to start position
 		if (!appContext.currentLevel->PlayerInBounds(appContext.playerData)) {
 			appContext.playerData.position = playerStartPos;
 		}
+		//run collision check after moving player to new position to prevent placing player inside tile
+		appContext.currentLevel->PlayerTileCollision(appContext.playerData);
+
 		isMovingPlayer = false;
 	}
 	if (isMovingPlayer) {
 		appContext.playerData.position = mouseWorld;
+		appContext.currentLevel->SetPlayerStartPos(mouseWorld);
 	}
 }
 
@@ -126,7 +139,11 @@ void EditorScreen::DrawTileDragging() {
 			LIGHTGRAY
 		);
 
-		appContext.viewport->DrawTile(&draggedTile, appContext.viewport->ScreenToWorld(GetMousePosition()));
+		Texture2D* texture = nullptr;
+		if (tileTextures.find(appContext.currentLevel->GetTextureID(draggedTile.id)) != tileTextures.end()) {
+			texture = &tileTextures[appContext.currentLevel->GetTextureID(draggedTile.id)];
+		}
+		appContext.viewport->DrawTile(&draggedTile, appContext.viewport->ScreenToWorld(GetMousePosition()), texture, LIGHTGRAY);
 	}
 }
 
@@ -153,6 +170,7 @@ void EditorScreen::DrawUI() {
 	tileSelector->Draw();
 	addButton->Draw();
 	playButton->Draw();
+	topBar->Draw();
 }
 
 void EditorScreen::AddTile() {
@@ -160,7 +178,15 @@ void EditorScreen::AddTile() {
 	if (addButton->IsClicked() && tileSelector->selectedItem.id != -1) {
 		cout << "Adding Tile ID: " << tileSelector->selectedItem.id << endl;
 		// Additional logic to add the selected tile can be implemented here
-		draggedTile = tileList[tileSelector->selectedItem.id];
+		//find tile in tileList with matching ID from tileSelector and set as draggedTile to be placed in level#
+		//draggedTile = tileList[tileSelector->selectedItem.id];
+		for (const TileData& tile : tileList) {
+			if (tile.id == tileSelector->selectedItem.id) {
+				Tile newTile = { tile.id, TileState::NORMAL };
+				draggedTile = newTile;
+				break;
+			}
+		}
 		isDraggingTile = true;
 		isTileNew = true;
 	}
@@ -176,12 +202,14 @@ void EditorScreen::PlayButton() {
 }
 
 void EditorScreen::Update() {
+	Vector2 mousePos = GetMousePosition();
 	// Implement editor screen update logic here
 	appContext.viewport->UpdateCameraEditor(GetFrameTime());
 	UpdateTileDragging();
 	tileSelector->Update();
-	addButton->Update();
-	playButton->Update();
+	addButton->Update(mousePos);
+	playButton->Update(mousePos);
+	topBar->Update(mousePos);
 	AddTile();
 	PlayButton();
 	UpdateMovePlayer();
@@ -197,7 +225,7 @@ void EditorScreen::Draw() {
 	appContext.viewport->DrawBoundsBackground(*appContext.currentLevel);
 	appContext.viewport->DrawGrid();
 	appContext.viewport->DrawBounds(*appContext.currentLevel);
-	appContext.viewport->DrawLevel(*appContext.currentLevel);
+	appContext.viewport->DrawLevel(*appContext.currentLevel, &tileTextures);
 	DrawPlayer();
 	DrawTileDragging();
 
@@ -210,4 +238,165 @@ void EditorScreen::Draw() {
 	DrawUI();
 
 	EndDrawing();
+}
+
+void EditorScreen::Init() {
+	// Implement any initialization logic for the editor screen here
+	LoadTileTextures();
+	LoadTileData();
+
+	topBar = make_unique<TopBar>(this);
+
+	//set player data position to player start position in level
+	appContext.playerData.position = appContext.currentLevel->GetPlayerStartPos();
+}
+
+void EditorScreen::LoadTileTextures() {
+	// load all tile textures to use in editor, referencing tileTextures.txt for file paths and texture ID's ignoring lines in tileTextures.txt that start with # as comments
+	ifstream file("Assets/TileTextures.txt");
+
+	if (!file.is_open()) {
+		cerr << "Failed to open tile textures file!" << endl;
+		return;
+	}
+
+	string line;
+
+	while (getline(file, line)) {
+		if (line.empty() || line[0] == '#') continue; // Skip empty lines and comments
+
+		istringstream iss(line);
+
+		int id;
+
+		string path;
+
+		if (!(iss >> id >> path)) {
+			cerr << "Invalid line format in tile textures file: " << line << endl;
+			continue;
+		}
+
+		// add extra path for textures folder
+		path = "Assets/Textures/" + path;
+		Texture2D texture = LoadTexture(path.c_str());
+
+		if (texture.id == 0) {
+			cerr << "Failed to load texture: " << path << endl;
+			continue;
+		}
+		else
+		{
+			cout << "Loaded texture ID " << id << " from " << path << endl;
+		}
+
+		tileTextures[id] = texture;
+	}
+}
+
+void EditorScreen::LoadTileData() {
+	//empty tileList before loading new data
+	tileList.clear();
+	tileSelector->Clear();
+	// load tile data from TileData.txt for tile ID's and associated Textures (exists so that different tiles can use the same texture with different properties
+	ifstream file("Assets/TileData.txt");
+
+	if (!file.is_open()) {
+		cerr << "Failed to open tile data file!" << endl;
+		return;
+	}
+
+	string line;
+
+	while (getline(file, line)) {
+		cout << "RAW LINE: [" << line << "]\n";
+		if (line.empty() || line[0] == '#') continue; // Skip empty lines and comments
+		istringstream iss(line);
+		int id; //tile id
+		int tid; //texture id
+		string name; //tile name (not used in editor but can be used for reference)
+
+		if (!(iss >> id >> tid >> name)) {
+			cerr << "Invalid line format in tile data file: " << line << endl;
+			continue;
+		}
+		else
+		{
+			cout << "Loaded tile data - ID: " << id << ", Texture ID: " << tid << ", Name: " << name << endl;
+		}
+		//store tile data in tileList for reference when adding tiles in editor
+		tileList.push_back({ id, tid, WHITE });
+		//add to tileSelector dropdown
+		tileSelector->AddItem(id, name);
+	}
+	appContext.currentLevel->SetTileData(&tileList); //pass reference of tileList to level for reference when adding tiles in level
+}
+
+void EditorScreen::SaveLevelAs() {
+	// Implement save level as logic here
+	const char* filters[] = { "*.txt" };
+	const char* path = tinyfd_saveFileDialog(
+		"Save Level As",
+		"Levels/NewLevel.txt",
+		1,
+		filters,
+		"Text Files (*.txt)"
+	);
+	if (path) {
+		string finalPath = path;
+
+		if (finalPath.size() < 4 || finalPath.substr(finalPath.size() - 4) != ".txt") {
+			finalPath += ".txt";
+		}
+
+		SaveLevelToFile(finalPath);
+		appContext.currentLevel->SetLevelPath(finalPath); //store path for future saves
+	}
+	else {
+		cerr << "Save cancelled or failed." << endl;
+	}
+}
+
+void EditorScreen::SaveOpenLevel() {
+	// Implement save open level logic here
+	if (!appContext.currentLevel->GetLevelPath().empty()) {
+		SaveLevelToFile(appContext.currentLevel->GetLevelPath());
+	}
+	else {
+		cerr << "Saving to new File" << endl;
+		SaveLevelAs();
+	}
+}
+
+void EditorScreen::SaveLevelToFile(const string& filePath) {
+	// Implement save level to file logic here
+	if (appContext.currentLevel) {
+		appContext.currentLevel->SaveToFile(filePath);
+		cout << "Level saved to " << filePath << endl;
+	}
+	else {
+		cerr << "No level to save!" << endl;
+	}
+}
+
+void EditorScreen::LoadLevel() {
+	// Implement load level logic here
+	const char* filters[] = { "*.txt" };
+	const char* path = tinyfd_openFileDialog(
+		"Load Level",
+		"Levels/",
+		1,
+		filters,
+		"Text Files (*.txt)",
+		0
+	);
+	if (path) {
+		string finalPath = path;
+		appContext.currentLevel->LoadFromFile(finalPath);
+		appContext.currentLevel->SetLevelPath(finalPath); //store path for future saves
+		Init(); //reinitialize editor screen to load new level data and textures
+		cout << "Level loaded from " << finalPath << endl;
+	}
+	else {
+		cerr << "Load cancelled or failed." << endl;
+	}
 }

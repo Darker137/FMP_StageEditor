@@ -1,14 +1,9 @@
 #include "ScreenManager.h"
+#include "TileClass.h"
 
 ScreenManager::ScreenManager() {
 	appContext.currentLevel = Level::GetLevel(0);
 	currentScreen = make_unique<EditorScreen>(appContext);
-
-	//make unique pointer tiles for vector
-	appContext.currentLevel->SetTile(0, 3, new Tile{ 1, true, WHITE });
-	appContext.currentLevel->SetTile(1, 3, new Tile{ 1, true, WHITE });
-	appContext.currentLevel->SetTile(2, 3, new Tile{ 1, true, WHITE });
-	appContext.currentLevel->SetTile(3, 3, new Tile{ 1, true, WHITE });
 }
 
 ScreenManager::~ScreenManager() {
@@ -20,6 +15,8 @@ void ScreenManager::Init() {
 	MaximizeWindow();
 
 	appContext.viewport = Viewport::Create(defaultScreenSize.x, defaultScreenSize.y);
+
+	currentScreen->Init();
 }
 
 void ScreenManager::Update() {
@@ -47,6 +44,7 @@ void ScreenManager::SwitchScreen() {
 		appContext.viewport->SetViewportMode(ViewportMode::Gameplay);
 		currentScreen = make_unique<GameplayScreen>(appContext);
 	}
+	currentScreen->Init();
 }
 
 void ScreenManager::ToggleFullscreen() {
@@ -54,3 +52,4 @@ void ScreenManager::ToggleFullscreen() {
 		ToggleFullscreen();
 	}
 }
+

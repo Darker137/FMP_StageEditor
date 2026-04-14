@@ -100,9 +100,8 @@ void DropdownList::Draw() const {
 
 // -------------------------------- Button Class ----------------------------------
 
-void Button::Update() {
+void Button::Update(Vector2 mousePos) {
 	isPressed = false;
-	Vector2 mousePos = GetMousePosition();
 	if (IsMouseButtonDown(MOUSE_LEFT_BUTTON)) {
 		if (CheckCollisionPointRec(mousePos, bounds)) {
 			isPressed = true;
