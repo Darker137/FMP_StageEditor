@@ -117,7 +117,6 @@ void Level::RebuildUsedTileIDs() {
 	}
 }
 
-
 bool Level::TileExists(int x, int y) const 
 {
 	return tileList[y * width + x].id != 0; 
@@ -146,7 +145,7 @@ bool Level::PlayerInBounds(PlayerData& data) const {
 		data.position.y >= 0 && (data.position.y + data.size.y) <= (height * tileSize));
 }
 
-void Level::SetTile(int x, int y, Tile* tile) { tileList[y * width + x] = *tile; }
+void Level::SetTile(int x, int y, const Tile& tile) { tileList[y * width + x] = tile; }
 
 void Level::SaveToFile(const string& filePath) {
 	ofstream file(filePath);

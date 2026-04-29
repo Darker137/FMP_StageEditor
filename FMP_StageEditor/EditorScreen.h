@@ -9,6 +9,16 @@
 struct Tile;
 class MenuBarButton;
 
+struct Selection {
+	bool active = false;
+	bool isMoving = false;
+	GridPos start;
+	GridPos end;
+
+	//vector for storing selected tiles if needed in future, currently selection is just visual
+	vector<Tile> selectedTiles;
+};
+
 class EditorScreen : public Screen {
 private:
 
@@ -18,6 +28,10 @@ private:
 	Tile draggedTile;
 	GridPos dragStartPos;
 	Vector2 dragWorldPos;
+	
+	Vector2 mouseOffset; //offset of mouse from top left corner while dragging, so that selected tile or tiles don't snap to top left corner of mouse position while dragging
+
+	Selection selection;
 
 	//moving player
 	bool isMovingPlayer = false;
@@ -34,10 +48,21 @@ private:
 
 	void UpdateViewportInput();
 	void UpdateTileDragging();
+	void UpdateSelection();
 	void UpdateMovePlayer();
 	void DrawTileDragging();
+	void DrawSelection();
 	void DrawPlayer();
 	void DrawUI();
+	void DrawMovingSelection();
+	void DrawSelectedTiles();
+	
+	Rectangle GetSelectionBounds() const;
+	void SetSelectionTiles();
+	void MoveSelectedTiles();
+	void RemoveSelectedTiles();
+	void DeleteSelectedTiles();
+	void PlaceSelectedTiles(GridPos gridStart, GridPos gridEnd);
 
 	void AddTile();
 	void PlayButton();
@@ -50,6 +75,10 @@ public:
 	void Init() override;
 	void LoadTileTextures() override;
 	void LoadTileData() override;
+	void AddToUndoStack();
+	void Undo();
+	void Redo();
+	void KeyShortcuts();
 
 	void NewLevel() { appContext.currentLevel = Level::GetLevel(0); Init(); }
 	void SaveLevelAs();

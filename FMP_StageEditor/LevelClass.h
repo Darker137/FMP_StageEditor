@@ -8,6 +8,11 @@ struct Tile;
 struct TileData;
 struct PlayerData;
 
+struct LevelSnapshot {
+	vector<Tile> tileList;
+	Vector2 playerStartPos;
+};
+
 class Level {
 private:
 	int id; // Level identifier
@@ -53,9 +58,10 @@ public:
 	Color GetTileColor(int id);
 	string& GetLevelPath() { return levelPath; }
 	Vector2& GetPlayerStartPos() { return playerStartPos; }
+	const vector<Tile>& GetTileList() const { return tileList; }
 
 	//replace tile info with new tile info
-	void SetTile(int x, int y, Tile* tile);
+	void SetTile(int x, int y, const Tile& tile);
 	void SetLevelPath(string path) { levelPath = path; }
 	void SetPlayerStartPos(Vector2 pos) { playerStartPos = pos; }
 	

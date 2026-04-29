@@ -66,4 +66,5 @@ class Button {
 	void Draw() const;
 	bool IsClicked() const { return isPressed; };
 };
+
 #endif
